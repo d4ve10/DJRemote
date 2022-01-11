@@ -20,7 +20,6 @@ import com.d4ve10.djremote.model.Constants;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Observer;
 import java.util.Set;
 
 public class BluetoothControllerImpl implements BluetoothController {

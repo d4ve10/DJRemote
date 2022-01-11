@@ -2,7 +2,6 @@ package com.d4ve10.djremote.view;
 
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
-import android.database.ContentObserver;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -31,7 +30,6 @@ public class HostActivity extends AppCompatActivity {
     private List<BluetoothDevice> connectedDevices;
     private DeviceAdapter deviceAdapter;
     private Handler hostHandler;
-    private ContentObserver volumeObserver;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

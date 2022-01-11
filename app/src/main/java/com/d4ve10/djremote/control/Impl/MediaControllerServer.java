@@ -99,7 +99,6 @@ public class MediaControllerServer implements MediaController {
         KeyEvent eventUp = new KeyEvent(KeyEvent.ACTION_UP, keyEvent);
         mAudioManager.dispatchMediaKeyEvent(eventDown);
         mAudioManager.dispatchMediaKeyEvent(eventUp);
-//        Log.i("djremote", "Sent key event: " + keyEvent);
     }
 
 
